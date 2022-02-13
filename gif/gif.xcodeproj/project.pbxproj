@@ -14,6 +14,7 @@
 		97DF572627B9798700975B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DF572527B9798700975B97 /* Assets.xcassets */; };
 		97DF572927B9798700975B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DF572727B9798700975B97 /* LaunchScreen.storyboard */; };
 		97DF572C27B9798700975B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DF572B27B9798700975B97 /* main.m */; };
+		97DF573327B97BB000975B97 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 97DF573227B97BB000975B97 /* gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		97DF572827B9798700975B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97DF572A27B9798700975B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97DF572B27B9798700975B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97DF573227B97BB000975B97 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gif.gif; path = ../../../../../../Downloads/gif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		97DF571827B9798600975B97 /* gif */ = {
 			isa = PBXGroup;
 			children = (
+				97DF573227B97BB000975B97 /* gif.gif */,
 				97DF571927B9798600975B97 /* AppDelegate.h */,
 				97DF571A27B9798600975B97 /* AppDelegate.m */,
 				97DF571C27B9798600975B97 /* SceneDelegate.h */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97DF572927B9798700975B97 /* LaunchScreen.storyboard in Resources */,
+				97DF573327B97BB000975B97 /* gif.gif in Resources */,
 				97DF572627B9798700975B97 /* Assets.xcassets in Resources */,
 				97DF572427B9798600975B97 /* Main.storyboard in Resources */,
 			);
