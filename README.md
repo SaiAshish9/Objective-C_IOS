@@ -46,3 +46,15 @@ viewDidLoad viewDidAppear viewDidDisappear viewWillAppear viewWillDisappear
 ```
 NSURLSessionConfiguration
 ```
+
+```
+#define REGEX_USER_NAME_LIMIT @"^.{3,10}"
+
+-(void) viewDidLoad(){
+ [self setup];
+}
+
+-(void) setup {
+[txt addRegex:REGEX_USER_NAME_LIMIT] withMsg:@"Username must contain between 3 to 10 characters";
+}
+```
