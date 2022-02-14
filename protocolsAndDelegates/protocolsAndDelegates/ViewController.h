@@ -6,9 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<ABC>
 
+@property (weak, nonatomic) IBOutlet UITextField *txtfirstname;
+@property (weak, nonatomic) IBOutlet UITextField *txtfullname;
 
 @end
 

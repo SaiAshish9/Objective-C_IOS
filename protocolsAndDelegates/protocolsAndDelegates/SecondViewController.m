@@ -12,20 +12,23 @@
 @end
 
 @implementation SecondViewController
+@synthesize txtlastname,obj;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)viewWillAppear:(BOOL)animated{
+//    runs before initial view is launched
+    [txtlastname resignFirstResponder];
+    [self.obj setlastname:txtlastname.text];
 }
-*/
 
+- (IBAction)btndone:(id)sender {
+    [txtlastname resignFirstResponder];
+    [self.obj setlastname:txtlastname.text];
+    [self.obj setbgcolor:[UIColor orangeColor]];
+    [self.obj settxtcolor:[UIColor blackColor]];
+    [self.navigationController popViewControllerAnimated:YES];
+}
 @end
