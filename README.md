@@ -38,3 +38,7 @@ File > Swift Packages > Add Package Dependency.
 https://developers.google.com/identity/sign-in/ios/start-integrating
 pod 'GoogleSignIn'
 ```
+
+```
+viewDidLoad viewDidAppear viewDidDisappear viewWillAppear viewWillDisappear 
+```
