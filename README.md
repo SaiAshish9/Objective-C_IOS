@@ -28,3 +28,8 @@ pod init
 
 pod install
 ```
+
+```
+https://developers.facebook.com/docs/facebook-login/ios
+File > Swift Packages > Add Package Dependency.
+```
