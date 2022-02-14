@@ -42,3 +42,7 @@ pod 'GoogleSignIn'
 ```
 viewDidLoad viewDidAppear viewDidDisappear viewWillAppear viewWillDisappear 
 ```
+
+```
+NSURLSessionConfiguration
+```
