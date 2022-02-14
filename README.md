@@ -33,3 +33,8 @@ pod install
 https://developers.facebook.com/docs/facebook-login/ios
 File > Swift Packages > Add Package Dependency.
 ```
+
+```
+https://developers.google.com/identity/sign-in/ios/start-integrating
+pod 'GoogleSignIn'
+```
