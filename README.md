@@ -17,3 +17,14 @@ AVKit
 <sqlite3.h>
 SCLAlertView
 ```
+
+```
+cd PROJECT_DIR
+pod init
+
+ pod 'FBSDKCoreKit'
+ pod 'FBSDKLoginKit'
+ pod 'FBSDKShareKit'
+
+pod install
+```
